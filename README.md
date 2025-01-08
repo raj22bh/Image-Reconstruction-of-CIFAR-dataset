@@ -37,50 +37,20 @@ git clone https://github.com/raj22bh/Image-Reconstruction-of-CIFAR-dataset.git
 # Navigate to the project directory
 cd Image-Reconstruction-of-CIFAR-dataset
 
-# Install dependencies
-pip install -r requirements.txt
-```
 
-## Usage
-1. **Preprocess the dataset:**
-   Run the preprocessing script to normalize and prepare the dataset for training:
-   ```bash
-   python preprocess.py
-   ```
 
-2. **Train the model:**
-   Train the reconstruction model using:
-   ```bash
-   python train.py --epochs 20 --batch_size 64 --model autoencoder
-   ```
-
-3. **Evaluate the model:**
-   Evaluate the performance of the trained model:
-   ```bash
-   python evaluate.py --model autoencoder
-   ```
-
-4. **Visualize results:**
-   Visualize the reconstructed images:
-   ```bash
-   python visualize.py
-   ```
 
 ## Directory Structure
 ```
 Image-Reconstruction-of-CIFAR-dataset/
-├── data/               # Dataset files
-├── models/             # Model architectures
-├── scripts/            # Preprocessing, training, and evaluation scripts
-├── results/            # Results and visualizations
-├── requirements.txt    # Required Python packages
+├── image-Reconstruction-of-CIFAR_dataset
 ├── README.md           # Project documentation
 ```
 
 ## Results
 Key results include:
 - High-quality image reconstructions from corrupted or low-resolution inputs.
-- Evaluation metrics (PSNR, SSIM) demonstrating the performance of the models.
+- Evaluation demonstrating the performance of the models.
 
 ## Future Work
 - Extend the project to support CIFAR-100 or other datasets.
