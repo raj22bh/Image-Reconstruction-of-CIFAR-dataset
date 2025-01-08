@@ -30,7 +30,7 @@ The dataset is widely used for image classification, segmentation, and reconstru
 ## Installation
 To run this project, clone the repository and install the required dependencies:
 
-```bash
+
 # Clone the repository
 git clone https://github.com/raj22bh/Image-Reconstruction-of-CIFAR-dataset.git
 
@@ -38,14 +38,6 @@ git clone https://github.com/raj22bh/Image-Reconstruction-of-CIFAR-dataset.git
 cd Image-Reconstruction-of-CIFAR-dataset
 
 
-
-
-## Directory Structure
-```
-Image-Reconstruction-of-CIFAR-dataset/
-├── image-Reconstruction-of-CIFAR_dataset
-├── README.md           # Project documentation
-```
 
 ## Results
 Key results include:
