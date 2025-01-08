@@ -21,7 +21,7 @@ The dataset is widely used for image classification, segmentation, and reconstru
 - Preprocessing pipeline for CIFAR-10 images.
 - Implementation of autoencoders and other reconstruction models.
 - Custom loss functions for optimizing reconstruction quality.
-- Evaluation metrics like PSNR (Peak Signal-to-Noise Ratio) and SSIM (Structural Similarity Index).
+- Evaluation metrics 
 - Utilized optimizers such as Adam and AdamW.
 - Employed MSE (Mean Squared Error) as the loss function.
 - Adjusted the number of layers in the models to minimize loss.
